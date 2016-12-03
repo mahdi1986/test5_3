@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:paddingTop="15dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:text="Full Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:paddingTop="15dp"
+        android:background="@android:color/darker_gray"
+        android:hint="First name and last Name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:paddingTop="15dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="Emaill"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:background="@android:color/darker_gray"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:paddingTop="15dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:text="User Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:paddingTop="15dp"
+        android:background="@android:color/darker_gray"
+        android:hint="6-15 character"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:paddingTop="15dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:text="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:paddingTop="15dp"
+        android:background="@android:color/darker_gray"
+        android:hint="At least 6 character"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:textColor="@android:color/white"
+        android:text="click"
+        android:paddingTop="15dp"
+android:background="@drawable/res_5_3_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
